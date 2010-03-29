@@ -72,7 +72,7 @@ LoremIpsum = {
 		s = s.substring(0, 1).toUpperCase() + s.substring(1);
 		// commas?
 		if (this.randomInt(1)) {
-			r = this.randomInt(3) + 1;
+			var r = this.randomInt(3) + 1;
 			for (var i = 0; i < r; i++)
 				s += this.sentenceFragment() + ", ";
 		}
