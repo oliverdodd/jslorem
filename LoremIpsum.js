@@ -55,7 +55,7 @@ LoremIpsum = {
 		return this.punctuation[this.randomInt(this.punctuation.length - 1)];
 	},
 
-	 words: function(count) {
+	words: function(count) {
 		var s = "";
 		while (count-- > 0)
 			s += this.randomWord() + " ";
