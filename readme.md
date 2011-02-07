@@ -34,6 +34,6 @@ Methods
 + **paragraph(useStandard)**
 		- Get a paragraph.
 		If useStandard is true, return the standard Lorem Ipsum paragraph.
-+ **paragraphs(count)**
++ **paragraphs(count, useStandard)**
 		- Get multiple paragraphs.
 		If useStandard is true, lead with the standard Lorem Ipsum paragraph.
