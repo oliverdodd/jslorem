@@ -69,7 +69,7 @@ LoremIpsum = {
 	sentence: function() {
 		// first word
 		var s = this.randomWord();
-		s = s.substring(0, 1).toUpperCase() + s.substring(1);
+		s = s.substring(0, 1).toUpperCase() + s.substring(1) + " ";
 		// commas?
 		if (this.randomInt(1)) {
 			var r = this.randomInt(3) + 1;
